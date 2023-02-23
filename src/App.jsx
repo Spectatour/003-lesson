@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
-import LsTest from './Components/006/LsTest';
+import Create from './Components/006/Create';
+
 
 
 
@@ -8,10 +9,14 @@ function App() {
 
 
     return (
-        <div className="App">
-            <header className="App-header">
-                <LsTest />
-            </header>
+        <div className="container">
+            <div className="row">
+                <div className="col-4">
+                <Create /> 
+                </div>
+                <div className="col-8">
+                </div>
+            </div>
         </div>
     );
 }
