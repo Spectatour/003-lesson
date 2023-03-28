@@ -89,3 +89,4 @@ foreach (range(7, 9) as $x) {
 
 // print_r(range(1, 5));
 
+?>
